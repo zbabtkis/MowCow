@@ -1,0 +1,20 @@
+{
+  "name": "LittleG",
+  "version": "0.1.0",
+  "description": "A little game development framework",
+  "main": "lib/framework.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "Zachary Babtkis <zackbabtkis@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.4.3",
+    "gulp-jasmine": "^2.0.0",
+    "jasmine": "^2.1.1",
+    "jasmine-reporters": "^1.0.1",
+    "jsdoc": "^3.3.0-beta1"
+  }
+}

@@ -1,0 +1,6 @@
+npm-debug.log
+www/dist
+www/node_modules
+www/bower_components
+www/out
+www/npm-debug.log
