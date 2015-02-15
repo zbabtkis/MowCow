@@ -23,6 +23,8 @@ StatsBar.prototype.trackStat = function(statName, source, attribute, changeAttri
   }, this));
 
   this.messageString = this.buildMessageString(this.messages);
+
+  return this;
 };
 
 StatsBar.prototype.buildMessageString = function(messages) {

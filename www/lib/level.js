@@ -6,8 +6,19 @@
  */
 function Level(run) {
   Level._levels.push(this);
-  this.run = run;
+
+  this.run = function() {
+    run(Level._world, Level._config);
+  };
 }
+
+Level.useWorld = function(world) {
+  this._world = world;
+};
+
+Level.configure = function(config) {
+  this._config = config;
+};
 
 Level._levels = [];
 Level._current = 0;

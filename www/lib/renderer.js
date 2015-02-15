@@ -3,11 +3,10 @@
  *
  * @class Renderer
  * @param {World} world A world to render
- * @param {HTMLElement} rootNode Element to install game in
  */
 var Renderer = function(world, rootNode) {
   this.world = world;
-  rootNode.appendChild(this.world.el);
+  rootNode.appendChild(world.el); 
 };
 
 /**

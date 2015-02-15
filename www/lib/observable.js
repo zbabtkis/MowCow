@@ -40,6 +40,8 @@ function Observable() {
       );
     }
     while(attributeBubble = attributeNest.pop());
+
+    return this;
   };
 }
 
